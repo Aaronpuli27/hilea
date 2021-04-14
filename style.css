@@ -15,7 +15,7 @@ html {
 }
 
 a {
-  background-color: goldenrod;
+  background-color: rgb(149, 242, 56);
   text-decoration: none;
   color: white;
   border-radius: .25rem;
@@ -126,19 +126,19 @@ footer {
 #menu {
 
   list-style: none;
-  border: thin solid #00b4f7;
+  border: thin solid #dde9ee;
   padding: 0;
-  background-color: #0082d6;
+  background-color:  #dde9ee;
   padding: 5px;
 }
 
 #menu > li {
-    border: thin solid #0090eb;
+    border: thin solid  #dde9ee;
     display: inline-grid;
 }
 
 #menu > li:first-child  {
-  background-color: #009df3;
+  background-color:  #dde9ee;
 
 }
 
@@ -150,7 +150,7 @@ footer {
 }
 
 #menu > li:hover {
-  background-color: #005891;
+  background-color:  #dde9ee;;
 }
 
 @media only screen and (max-width: 768px) {
