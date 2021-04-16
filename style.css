@@ -15,7 +15,7 @@ html {
 }
 
 a {
-  background-color: rgb(76, 128, 25);
+  background-color: #8ed3f3;
   text-decoration: none;
   color: white;
   border-radius: .25rem;
@@ -71,7 +71,7 @@ a:hover {
 }
 
 .tarjeta > ul > li {
-  border: 1px solid #E2E2E2;
+  border: 1px solid #5a3ff7;
   border-radius: .5rem;
   list-style-type: none;
 }
@@ -105,7 +105,7 @@ a:hover {
   font-size: 1rem;
   line-height: 1.5;
   padding: 1rem .75rem;
-  color: #666666;
+  color: #000000;
 }
 
 .tarjeta > ul > li > a {
@@ -126,9 +126,9 @@ footer {
 #menu {
 
   list-style: none;
-  border: thin solid #dde9ee;
+  border: thin solid #ffffff;
   padding: 0;
-  background-color:  #dde9ee;
+  background-color:  #ffffff;
   padding: 5px;
 }
 
@@ -157,4 +157,20 @@ footer {
   #menu > li {
       width: 100%;
   }
+}
+
+.tarjeta {
+  padding-right: 170px;
+}
+
+.tarjeta {
+  padding-left: 170px;
+}
+
+.menu {
+  padding-left: 200px;
+}
+
+.menu {
+  padding-right: 200px;
 }
