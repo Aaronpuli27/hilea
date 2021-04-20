@@ -76,9 +76,15 @@ a:hover {
 }
 
 .tarjeta > ul > li {
-  border: 1px solid #ff00ea;
+  /* border: 1px solid #ff00ea; */
   border-radius: .5rem;
   list-style-type: none;
+  border-radius: 58px;
+background: #ffffff;
+box-shadow:  28px 28px 44px #cccccc,
+             -28px -28px 44px #ffffff;
+
+             text-align: center;
 }
 
 .tarjeta > ul > li > figure {
@@ -111,6 +117,7 @@ a:hover {
   line-height: 1.5;
   padding: 1rem .75rem;
   color: #000000;
+  text-align: left;
 }
 
 .tarjeta > ul > li > a {
