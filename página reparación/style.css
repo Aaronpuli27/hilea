@@ -1,6 +1,10 @@
+/* Typography imported from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro:200,400');
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', serif;
 }
+
 p, a {
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -27,7 +31,7 @@ a:hover {
 /* Styles for the banner image */
 .banner {
   /* Photo by mnm.all on Unsplash */
-  background: url('https://i.ibb.co/Bwf44PY/a.jpg') center;
+  background: url('https://i.ibb.co/njy9jHT/pene.png') center;
   background-size: cover;
   padding: 4rem 2rem;
   /* grid styles */
