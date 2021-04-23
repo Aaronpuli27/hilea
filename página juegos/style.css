@@ -129,8 +129,8 @@ box-shadow:  28px 28px 44px #cccccc,
 }
 
 .tarjeta > ul > li > p {
-  font-size: 1rem;
-  line-height: 1.5;
+  font-size: 25px;
+  line-height: 0;
   padding: 1rem .75rem;
   color: #000000;
   text-align: center;
