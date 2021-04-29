@@ -182,14 +182,6 @@ footer {
   }
 }
 
-.tarjeta {
-  padding-right: 170px;
-}
-
-.tarjeta {
-  padding-left: 170px;
-}
-
 .menu {
   padding-left: 0px;
 }
@@ -202,3 +194,8 @@ footer {
   text-align: center;
 }
 
+.banner {
+  background: url('https://i.ibb.co/mbrYLhd/G-tica-Culona.jpg') right;
+  width: 420px; 
+  height: 500px; 
+}
