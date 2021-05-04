@@ -31,7 +31,7 @@ a:hover {
 /* Styles for the banner image */
 .banner {
   /* Photo by mnm.all on Unsplash */
-  background: url('https://i.ibb.co/njy9jHT/pene.png') center;
+  background: url('https://i.ibb.co/9yTXy20/Sin-t-tulo-7.png') center;
   background-size: cover;
   padding: 4rem 2rem;
   /* grid styles */
@@ -182,14 +182,6 @@ footer {
   }
 }
 
-.tarjeta {
-  padding-right: 170px;
-}
-
-.tarjeta {
-  padding-left: 170px;
-}
-
 .menu {
   padding-left: 0px;
 }
@@ -202,3 +194,8 @@ footer {
   text-align: center;
 }
 
+.banner {
+  background: url('https://i.ibb.co/4K8z6Lb/Aggelos.jpg') right;
+  width: 575px; 
+  height: 510px; 
+}
