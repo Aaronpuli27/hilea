@@ -31,7 +31,7 @@ a:hover {
 /* Styles for the banner image */
 .banner {
   /* Photo by mnm.all on Unsplash */
-  background-image: url('https://i.ibb.co/njy9jHT/pene.png');
+  background: url('https://i.ibb.co/njy9jHT/pene.png') center;
   background-size: cover;
   padding: 4rem 2rem;
   /* grid styles */
