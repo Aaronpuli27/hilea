@@ -150,6 +150,26 @@ footer {
   font-size: .75rem;
 }
 
+/* twocols */
+.twocols { 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+}
+
+.x3 {
+  grid-template-columns: 3fr 1fr;
+}
+
+.twocols > img {
+  max-width: 100%;
+}
+
+.twocols > div > p {
+  padding: 1rem;
+}
+
+
 /* menu styles */
 #menu {
 
@@ -179,6 +199,11 @@ footer {
 @media only screen and (max-width: 768px) {
   #menu > li {
       width: 100%;
+  }
+
+  .twocols {
+    display: block;
+    grid-template-columns: 1fr;
   }
 }
 
