@@ -154,7 +154,10 @@ footer {
 .twocols { 
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 1rem
+  padding: 1rem;
+  border: thin solid black;
+  border-radius: 2rem;
+  margin: 1rem 0;
 }
 
 .x3 {
@@ -167,6 +170,7 @@ footer {
 
 .twocols > div > p {
   padding: 1rem;
+  font-size: large;
 }
 
 
