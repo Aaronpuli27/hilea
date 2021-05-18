@@ -14,7 +14,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 a {
   background-color: #000000;
   text-decoration: none;
@@ -22,7 +21,7 @@ a {
   text-align: center;
   display: inline-block;
   transition: all .3s;
-  border-radius: 0px;
+  border-radius: 30px;
 }
 
 a:hover {
@@ -32,7 +31,7 @@ a:hover {
 /* Styles for the banner image */
 .banner {
   /* Photo by mnm.all on Unsplash */
-  background: url('../imagenes/juegos/fondojuegos.png') center;
+  background: url('./imagenes/banner-nintendo-roja.jpg') center;
   background-size: cover;
   padding: 4rem 2rem;
   /* grid styles */
@@ -58,17 +57,12 @@ a:hover {
 .banner > article > p {
   font-size: 1.5rem;
   font-weight: 200;
-  text-align: left;
+  text-align: right;
   
 }
 
 .banner > article {
   position: relative;
-}
-
-.banner{
-  border: thick solid black;
-  border-radius: 4rem;
 }
 
 .banner > article > a {
@@ -83,6 +77,8 @@ a:hover {
   top: 120px;
   position: absolute;
 }
+
+
 
 /* tarjeta styles */
 .tarjeta {
@@ -186,8 +182,6 @@ footer {
   }
 }
 
-
-
 .tarjeta {
   padding-right: 170px;
 }
@@ -205,9 +199,9 @@ footer {
 }
 
 .menu {
-  text-align: center;
+  text-align: start;
 }
 
 .banner > img {
-  width: 60%;
+  width: 40%;
 }
