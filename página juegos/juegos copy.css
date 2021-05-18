@@ -66,6 +66,11 @@ a:hover {
   position: relative;
 }
 
+.banner{
+  border: thick solid black;
+  border-radius: 4rem;
+}
+
 .banner > article > a {
   padding: 1rem;
   margin-top: .75rem;
@@ -78,8 +83,6 @@ a:hover {
   top: 120px;
   position: absolute;
 }
-
-
 
 /* tarjeta styles */
 .tarjeta {
