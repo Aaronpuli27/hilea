@@ -31,7 +31,7 @@ a:hover {
 /* Styles for the banner image */
 .banner {
   /* Photo by mnm.all on Unsplash */
-  background: url('./imagenes/banner-nintendo-roja.jpg') center;
+  background: url('./imagenes/banner-nintendo-negra.jpg') center;
   background-size: cover;
   padding: 4rem 2rem;
   /* grid styles */
