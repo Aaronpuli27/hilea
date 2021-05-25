@@ -22,7 +22,10 @@ a {
   text-align: center;
   display: inline-block;
   transition: all .3s;
-  border-radius: 0px;
+  border-radius: 30px;
+  padding: .5rem 1rem;
+  margin: .5rem;
+
 }
 
 a:hover {
