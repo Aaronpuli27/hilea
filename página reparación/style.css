@@ -41,11 +41,16 @@ a:hover {
   border-radius: 58px;
   box-shadow:  28px 28px 44px #cccccc,
                -28px -28px 44px #ffffff;
+  margin-bottom: 4rem;
 }
 
 .banner > * {
   color: rgb(0, 0, 0);
   
+}
+
+.banner2 > article > p > a{
+  padding: .5rem 1rem;
 }
 
 .banner > h1 {
@@ -234,4 +239,59 @@ footer {
 
 .banner > img {
   width: 40%;
+}
+
+.banner2 {
+  /* Photo by mnm.all on Unsplash */
+  background-color: #e7e726;
+  background-size: cover;
+  padding: 4rem 2rem;
+  /* grid styles */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  align-items: center;
+  border-radius: 58px;
+  box-shadow:  28px 28px 44px #cccccc,
+               -28px -28px 44px #ffffff;
+               margin-bottom: 2.5rem;
+}
+
+.banner2 > * {
+  color: rgb(0, 0, 0);
+  
+}
+
+.banner2 > h1 {
+  font-size: 4rem;
+  padding-bottom: 1rem;
+  
+}
+
+.banner2 > article > p {
+  font-size: 1.5rem;
+  font-weight: 200;
+  text-align: left;
+  
+}
+
+.banner2 > article {
+  position: relative;
+}
+
+.banner2{
+  border: thick solid black;
+  border-radius: 4rem;
+}
+
+.banner2 > article > a {
+  padding: 1rem;
+  margin-top: .75rem;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: medium;
+  right: 0;
+  top: 120px;
+  position: absolute;
 }
