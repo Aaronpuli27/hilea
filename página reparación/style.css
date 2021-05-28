@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro:200,400');
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 p, a {
@@ -49,7 +49,7 @@ a:hover {
   
 }
 
-.banner2 > article > p > a{
+.reparacion > article > p > a{
   padding: .5rem 1rem;
 }
 
@@ -241,7 +241,7 @@ footer {
   width: 40%;
 }
 
-.banner2 {
+.reparacion {
   /* Photo by mnm.all on Unsplash */
   background-color: #e7e726;
   background-size: cover;
@@ -256,34 +256,34 @@ footer {
                margin-bottom: 2.5rem;
 }
 
-.banner2 > * {
+.reparacion > * {
   color: rgb(0, 0, 0);
   
 }
 
-.banner2 > h1 {
+.reparacion > h1 {
   font-size: 4rem;
   padding-bottom: 1rem;
   
 }
 
-.banner2 > article > p {
+.reparacion > article > p {
   font-size: 1.5rem;
   font-weight: 200;
   text-align: left;
   
 }
 
-.banner2 > article {
+.reparacion > article {
   position: relative;
 }
 
-.banner2{
+.reparacion{
   border: thick solid black;
   border-radius: 4rem;
 }
 
-.banner2 > article > a {
+.reparacion > article > a {
   padding: 1rem;
   margin-top: .75rem;
   color: rgb(255, 255, 255);
@@ -294,4 +294,13 @@ footer {
   right: 0;
   top: 120px;
   position: absolute;
+}
+
+.reparacion > figure > img {
+  max-width: 100%;
+}
+
+.reparacion > article > h2 {
+  font-size: 3rem;
+  font-weight: bolder;
 }
